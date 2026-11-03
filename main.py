@@ -31,5 +31,5 @@ async def main():
     print("Sinyal koprusu aktif! VIP kanaldan sinyaller bekleniyor...")
     await client.run_until_disconnected()
 
-if __name__ == "__main__":
+if _name_ == "_main_":
     asyncio.run(main())
